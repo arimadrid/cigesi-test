@@ -1,0 +1,32 @@
+//bloque rosa de la caja antes del footer
+.bg-pink{
+    @include simple-bg($pink);
+    @include text-style($Open-Cond, $white, $t3);
+    i{
+        font-weight: none;
+    }
+}
+
+/**
+  *lineas de colores del footer
+ **/
+.bg-row-1 {
+    @include bg-row($line-1);
+}
+
+.bg-row-2 {
+    @include bg-row($orange);
+}
+
+.bg-row-3 {
+    @include bg-row($green-2);
+}
+
+.bg-row-4 {
+    @include bg-row($line-2);
+}
+
+.bg-row-5 {
+    @include bg-row($pink);
+}
+

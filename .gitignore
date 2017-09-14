@@ -1,0 +1,7 @@
+#ignorar archivos css en la carpeta sass
+/public/sass/*.css
+/public/sass/*.min.css
+
+#ignorar archivos de prueba
+modificar.html
+/.sass-cache

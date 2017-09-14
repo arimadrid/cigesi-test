@@ -1,0 +1,46 @@
+@mixin simple-bg($bg){
+    background-color: #{$bg};
+}
+
+@mixin bg-row($back){
+    background-color: #{$back};
+    block-size: 3px;
+}
+
+@mixin text-overlay($color, $align: center, $family: $Open, $size: $s5){
+    color: #{$color};
+    text-align: #{$align};
+    font-family: #{$family};
+    font-size: #{$size};
+}
+
+@mixin background-img( $img, $type){
+    background-image: url(../../public/images/#{$img}.#{$type});
+}
+
+@mixin section-content($color: $pink, $position: cover, $repeat: no-repeat, $size: cover){
+    background-color: #{$color};
+    background-position: #{$position};
+    background-repeat: #{$repeat};
+    background-size: #{$size};
+}
+
+@mixin btn-defined($colors, $bg, $bd, $family, $size, $color, $bg2){
+    color: #{$colors};
+    background-color: #{$bg};
+    border-color: #{$bd};
+    font-family: #{$family};
+    font-size: #{$size};
+    &:hover,
+    &:focus, {
+        color: #{$color};
+        background-color: #{$bg2};
+    }
+}
+
+@mixin text-style($family, $color, $size){
+    font-family: #{$family};
+    color: #{$color};
+    font-size: #{$size};
+}
+

@@ -1,0 +1,42 @@
+//Import Google Font
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+//Import Bootstrap CSS and Font Awesome
+@import url('https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+//Fonts
+$Roboto: 'Roboto Condensed', sans-serif;
+$Open: 'Open Sans', sans-serif;
+$Open-Cond: 'Open Sans Condensed', sans-serif;
+
+//Colors
+$white:   #ffffff !default;
+$white-2: #f2f4f3 !default;
+$gray:    #92a19a !default;
+$gray-2:  #64796e !default;
+$gray-3:  #577565 !default;
+$green:   #b9c75a !default;
+$green-2: #a2b423 !default;
+$green-3: #88971d !default;
+$orange:  #f58c01 !default;
+$orange-2:#a0371b !default;
+$blue:    #5b5677 !default;
+$pink:    #d54991 !default;
+$line-1:  #496356 !default;
+$line-2:  #e5af36 !default;
+
+//Sizes
+$s1: 13px !default;
+$s2: 16px !default;
+$s3: 17px !default;
+$s4: 18px !default;
+$s5: 24px !default;
+$t1: 26px !default;
+$t2: 30px !default;
+$t3: 36px !default;
+$t4: 40px !default;
+$t5: 44px !default;
+$t6: 50px !default;

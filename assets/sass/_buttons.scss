@@ -1,0 +1,7 @@
+.btn-header {
+    @include btn-defined($green-3, $white, $green, $Roboto, $s4, $white, $green);
+}
+
+.btn-body {
+    @include btn-defined($green-2, $white, $green, $Open-Cond, $t2, $white, $green);
+}
